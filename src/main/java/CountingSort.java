@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class CountingSorter {
+class CountingSort {
 
     public static void main(String[] args) {
         System.out.println("Counting sort in Java");

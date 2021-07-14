@@ -18,7 +18,7 @@ public class LongestCommonSubsequence {
     /* Utility function to get max of 2 integers */
     int max(int a, int b)
     {
-        return (a > b)? a : b;
+        return Math.max(a, b);
     }
 
     public static void main(String[] args)

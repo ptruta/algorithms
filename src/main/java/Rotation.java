@@ -1,4 +1,4 @@
-public class Main {
+public class Rotation {
     public static void main(String[] args){
 
         int[] v = {79875,5345,234,2342,3423,423,423,4,234,23,42,34,234,234,2342,32,3,32,32,32,43,34};
@@ -13,13 +13,13 @@ public class Main {
     public static void rotation(int n, int k, int[] v){
         int[] temp = new int[n];
 
-        int contor = n-k;
+        int contour = n-k;
         int i=0;
 
-        while (contor < n) {
-            temp[i] = v[contor];
+        while (contour < n) {
+            temp[i] = v[contour];
             i = i + 1;
-            contor = contor + 1;
+            contour = contour + 1;
         }
 
         i = n;
